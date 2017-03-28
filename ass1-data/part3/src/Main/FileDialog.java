@@ -1,3 +1,5 @@
+package Main;
+
 import javax.swing.JFileChooser;
 
 /** Provides static methods to get a file name using the standard
