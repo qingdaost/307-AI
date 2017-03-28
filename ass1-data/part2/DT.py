@@ -15,13 +15,13 @@ class Node:
         """Output the report"""
         print("{}= True:".format(self.bestAtt))
         print(indent, end = "\t")
-        if isinstance(self.left, str) == True:
+        if isinstance(self.left, tuple) == True:
             print("\t", self.left)
         else:
             self.left.report(indent + "\t")
         print("{}{}= False:".format(indent, self.bestAtt))
         print(indent, end = "\t")
-        if isinstance(self.right, str) == True:
+        if isinstance(self.right, tuple) == True:
             print("\t", self.right)
         else:
             self.right.report(indent + "\t")
@@ -35,8 +35,6 @@ def training_process(filename):
     trainingfile.close()
     class_list = training[0].split()
     attr_list = training[1].split()
-    #print(class_list)
-    #print(attr_list)
     training_list = []
     for line in training[2:]:
         if line != '\n':
@@ -47,7 +45,6 @@ def training_process(filename):
             for i in range(16):
                 vals[attr_list[i]] = vals_list[i]
             training_list.append((class_name, vals))
-    #print(training_list)
     return (training_list, attr_list)
 
 
@@ -71,18 +68,19 @@ def BuildTree(training_list, attr_list, overall_class):
         if train[0] == 'live':
             live_num += 1
     if len(training_list) == 0:
-        return ("Category " + overall_class)
+        return (overall_class, 0)
     if live_num == len(training_list):
-        return "Category live, prob = 100%"
+        return ("live", live_num)
     elif live_num == 0:
-        return "Category die, prob = 100%"
+        return ("die", len(training_list))
     if len(attr_list) == 0:
-        
         if live_num >= len(training_list) - live_num:
             set_class = 'live'
+            majority = live_num
         else:
             set_class = 'die'
-        return ("Category " + set_class)      
+            majority = len(training_list) - live_num
+        return (set_class, majority)
     else:
         best_attr = attr_list[0]
         best_true_set = []
@@ -107,12 +105,17 @@ def BuildTree(training_list, attr_list, overall_class):
                 best_true_set = true_set
                 best_false_set = false_set     
                 best_purity = purity
-        attr_list.remove(best_attr)
-        left = BuildTree(best_true_set, attr_list, overall_class)
-        right = BuildTree(best_false_set, attr_list, overall_class)
-        node = Node(best_attr, left, right)
-    return node
+        #attr_list.remove(best_attr)
+        new_list = []
+        for attr in attr_list:
+            if attr != best_attr:
+                new_list.append(attr)
+        left = BuildTree(best_true_set, new_list, overall_class)
+        right = BuildTree(best_false_set, new_list, overall_class)
+        return Node(best_attr, left, right)
+    #return node
     
+
 
 def get_purity(true_set, false_set):
     """Get the purity of true_set and false_set"""
@@ -128,6 +131,7 @@ def get_purity(true_set, false_set):
         pp_true = 0
     else:
         pp_true = live_in_true * (true_weight - live_in_true) / (true_weight ** 2)
+        
     for instance in false_set:
         if instance[0] == "live":
             live_in_false += 1
@@ -137,8 +141,41 @@ def get_purity(true_set, false_set):
         pp_false = live_in_false * (false_weight - live_in_false) / (false_weight ** 2)
     purity = true_weight / total * pp_true + false_weight / total * pp_false
     return purity
-        
+
+
+def get_class(filename, root):
+    """Get the class of test instance according to DT"""
+    testfile = open(filename)
+    test_data = testfile.readlines()
+    testfile.close()
+    class_list = test_data[0].split()
+    attr_list = test_data[1].split()
+    test_list = []
+    for line in test_data[2:]:
+        if line != '\n':
+            test_obj = line.split()
+            class_name = test_obj[0]
+            vals_list = test_obj[1:]
+            vals = {}
+            for i in range(16):
+                vals[attr_list[i]] = vals_list[i]
+            test_list.append((class_name, vals))
+    node = root
+    correct = 0
+    for instance in test_list:
+        while isinstance(node, tuple) != True:
+            if instance[1][node.bestAtt] == 'true':
+                node = node.left
+            elif instance[1][node.bestAtt] == 'false':
+                node = node.right
+        print(instance[0], node[0])
+        if instance[0] == node[0]:
+            correct += 1
+        node = root
+    print("Accuracy: {:.2f}%".format(correct / len(test_list) * 100))
     
+                
+            
 
 def main():
     """ Gets the job done """
@@ -146,6 +183,8 @@ def main():
     overall_class = get_overall_class(training_list, attr_list)
     node = BuildTree(training_list, attr_list, overall_class)
     node.report("\t")
+    get_class("hepatitis-training.dat", node)
+    get_class("hepatitis-test.dat", node)
     
     
     
