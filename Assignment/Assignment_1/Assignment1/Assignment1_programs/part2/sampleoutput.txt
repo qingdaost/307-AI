@@ -1,0 +1,93 @@
+DT.py sampleoutput:
+The learned decision tree classifier is
+ASCITES= True:
+		SPIDERS= True:
+			VARICES= True:
+				FIRMLIVER= True:
+						 ('live', 49)
+				FIRMLIVER= False:
+					BIGLIVER= True:
+						STEROID= True:
+								 ('live', 5)
+						STEROID= False:
+							FEMALE= True:
+									 ('live', 2)
+							FEMALE= False:
+								ANTIVIRALS= True:
+									FATIGUE= True:
+											 ('die', 1)
+									FATIGUE= False:
+											 ('live', 4)
+								ANTIVIRALS= False:
+										 ('die', 1)
+					BIGLIVER= False:
+							 ('live', 7)
+			VARICES= False:
+					 ('die', 1)
+		SPIDERS= False:
+			FIRMLIVER= True:
+				AGE= True:
+						 ('live', 1)
+				AGE= False:
+					SGOT= True:
+							 ('live', 1)
+					SGOT= False:
+						ANTIVIRALS= True:
+								 ('die', 4)
+						ANTIVIRALS= False:
+							STEROID= True:
+									 ('live', 1)
+							STEROID= False:
+									 ('die', 1)
+			FIRMLIVER= False:
+				SGOT= True:
+					BIGLIVER= True:
+						SPLEENPALPABLE= True:
+								 ('live', 4)
+						SPLEENPALPABLE= False:
+							ANOREXIA= True:
+									 ('die', 2)
+							ANOREXIA= False:
+									 ('live', 1)
+					BIGLIVER= False:
+							 ('die', 3)
+				SGOT= False:
+						 ('live', 10)
+ASCITES= False:
+	BIGLIVER= True:
+		STEROID= True:
+				('die', 7)
+		STEROID= False:
+			ANOREXIA= True:
+					('die', 2)
+			ANOREXIA= False:
+					('live', 2)
+	BIGLIVER= False:
+			('live', 1)
+
+The learned decision tree is applied to training data
+Accuracy: 100.00%
+The learned decision tree is applied to test data
+Accuracy: 77.78%
+The classifier is applied to 10 pairs of data:
+run01
+Accuracy: 83.78%
+run02
+Accuracy: 83.78%
+run03
+Accuracy: 81.08%
+run04
+Accuracy: 75.68%
+run05
+Accuracy: 75.68%
+run06
+Accuracy: 67.57%
+run07
+Accuracy: 83.78%
+run08
+Accuracy: 67.57%
+run09
+Accuracy: 75.68%
+run10
+Accuracy: 78.38%
+Average accuracy: 77.30%

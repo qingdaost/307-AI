@@ -1,0 +1,299 @@
+RUN1
+epoch = 66, mse = 0.010, Percentage = 75/75 = 100.00%
+-0.658961
+-2.497275
+3.949700
+1.702302
+-2.485756
+-1.650305
+4.102110
+2.945721
+-5.116281
+-2.065394
+4.298898
+-4.664041
+0.951552
+5.479015
+0.000000
+0.000000
+0.000000
+0.000000
+-1.444150
+-2.560712
+2.454796
+-2.237407
+-3.585197
+Mean squared error for training data: 0.065
+Number of incorrect classifications: 11/75
+Mean squared error for test data: 0.059
+Number of incorrect classifications: 10/75
+
+RUN2
+epoch = 69, mse = 0.010, Percentage = 75/75 = 100.00%
+0.049401
+2.626216
+-5.035189
+-1.865362
+-2.449723
+-1.854765
+4.086317
+3.119303
+5.187295
+-2.357044
+-4.568958
+-4.638672
+-1.772694
+5.513507
+0.000000
+0.000000
+0.000000
+0.000000
+1.923355
+-2.427029
+-2.406934
+1.997896
+-2.603850
+Mean squared error for training data: 0.065
+Number of incorrect classifications: 11/75
+Mean squared error for test data: 0.058
+Number of incorrect classifications: 10/75
+
+RUN3
+epoch = 94, mse = 0.010, Percentage = 75/75 = 100.00%
+2.477918
+1.623678
+-4.065532
+-3.107361
+0.301018
+3.381854
+-7.265867
+-3.232538
+1.439715
+5.676760
+4.493547
+-4.689508
+-5.122684
+-3.301241
+0.000000
+0.000000
+0.000000
+0.000000
+2.533465
+2.769107
+-4.175035
+-2.346840
+2.475103
+Mean squared error for training data: 0.066
+Number of incorrect classifications: 11/75
+Mean squared error for test data: 0.059
+Number of incorrect classifications: 10/75
+
+RUN4
+epoch = 89, mse = 0.010, Percentage = 75/75 = 100.00%
+-0.986069
+-3.716086
+5.427996
+2.386031
+-2.417289
+-1.171322
+3.603897
+3.207457
+-6.006536
+-0.987567
+4.463288
+-4.696173
+2.178503
+5.008611
+0.000000
+0.000000
+0.000000
+0.000000
+-2.568610
+-2.543807
+2.783716
+-2.388898
+-4.521483
+Mean squared error for training data: 0.063
+Number of incorrect classifications: 11/75
+Mean squared error for test data: 0.057
+Number of incorrect classifications: 8/75
+
+RUN5
+epoch = 84, mse = 0.010, Percentage = 75/75 = 100.00%
+-2.580066
+-1.566730
+4.166500
+2.837800
+-0.775820
+-2.856448
+4.432296
+1.943563
+-2.197220
+-5.199496
+-4.685365
+4.302898
+5.424221
+1.801032
+0.000000
+0.000000
+0.000000
+0.000000
+-2.350887
+-1.848138
+2.503178
+-2.239226
+-4.372385
+Mean squared error for training data: 0.066
+Number of incorrect classifications: 11/75
+Mean squared error for test data: 0.060
+Number of incorrect classifications: 9/75
+
+RUN6
+epoch = 73, mse = 0.010, Percentage = 75/75 = 100.00%
+2.477745
+2.155835
+-4.450735
+-3.111181
+0.086962
+2.625741
+-4.121365
+-1.750804
+2.098772
+5.128804
+4.513889
+-4.617994
+-5.565800
+-1.547145
+0.000000
+0.000000
+0.000000
+0.000000
+2.594913
+1.252512
+-4.547053
+-2.343734
+2.636797
+Mean squared error for training data: 0.071
+Number of incorrect classifications: 12/75
+Mean squared error for test data: 0.063
+Number of incorrect classifications: 11/75
+
+RUN7
+epoch = 79, mse = 0.010, Percentage = 75/75 = 100.00%
+-2.412974
+-2.219046
+4.273296
+3.296468
+0.153122
+2.639950
+-4.932398
+-2.415666
+-3.237379
+5.037335
+-4.707857
+-4.618101
+5.666411
+-2.275011
+0.000000
+0.000000
+0.000000
+0.000000
+-2.590659
+1.387671
+-2.290978
+2.042810
+-2.679026
+Mean squared error for training data: 0.069
+Number of incorrect classifications: 11/75
+Mean squared error for test data: 0.061
+Number of incorrect classifications: 11/75
+
+RUN8
+epoch = 78, mse = 0.010, Percentage = 75/75 = 100.00%
+0.137328
+3.046167
+-5.494999
+-2.099302
+2.466622
+1.701997
+-4.125127
+-3.083326
+5.468570
+1.567185
+-4.605115
+4.458399
+-2.239846
+-5.250369
+0.000000
+0.000000
+0.000000
+0.000000
+1.669754
+2.600308
+-4.209548
+-2.330605
+2.520587
+Mean squared error for training data: 0.066
+Number of incorrect classifications: 11/75
+Mean squared error for test data: 0.060
+Number of incorrect classifications: 10/75
+
+RUN9
+epoch = 77, mse = 0.010, Percentage = 75/75 = 100.00%
+2.588439
+1.615549
+-4.263200
+-2.933538
+0.206275
+2.766797
+-5.139238
+-2.135179
+1.273706
+5.484201
+4.491096
+-4.639153
+-5.290780
+-1.929398
+0.000000
+0.000000
+0.000000
+0.000000
+2.474863
+1.676647
+-3.951239
+-2.344500
+2.533163
+Mean squared error for training data: 0.067
+Number of incorrect classifications: 11/75
+Mean squared error for test data: 0.061
+Number of incorrect classifications: 10/75
+
+RUN10
+epoch = 70, mse = 0.010, Percentage = 75/75 = 100.00%
+-2.384102
+-1.887093
+4.049765
+2.997606
+-0.024829
+2.952187
+-5.268177
+-2.244014
+-2.259729
+5.357721
+-4.647795
+-4.594216
+5.345560
+-2.207315
+0.000000
+0.000000
+0.000000
+0.000000
+-2.353004
+1.749637
+-2.496632
+1.999167
+-2.503866
+Mean squared error for training data: 0.067
+Number of incorrect classifications: 11/75
+Mean squared error for test data: 0.060
+Number of incorrect classifications: 10/75

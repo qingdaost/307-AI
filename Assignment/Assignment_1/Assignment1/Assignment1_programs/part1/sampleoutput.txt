@@ -1,0 +1,334 @@
+KNN.py sampleoutput:
+([5.0, 3.0, 1.6, 0.2], 'Iris-setosa');predicted class:Iris-setosa;correct
+([5.0, 3.4, 1.6, 0.4], 'Iris-setosa');predicted class:Iris-setosa;correct
+([5.2, 3.5, 1.5, 0.2], 'Iris-setosa');predicted class:Iris-setosa;correct
+([5.2, 3.4, 1.4, 0.2], 'Iris-setosa');predicted class:Iris-setosa;correct
+([4.7, 3.2, 1.6, 0.2], 'Iris-setosa');predicted class:Iris-setosa;correct
+([4.8, 3.1, 1.6, 0.2], 'Iris-setosa');predicted class:Iris-setosa;correct
+([5.4, 3.4, 1.5, 0.4], 'Iris-setosa');predicted class:Iris-setosa;correct
+([5.2, 4.1, 1.5, 0.1], 'Iris-setosa');predicted class:Iris-setosa;correct
+([5.5, 4.2, 1.4, 0.2], 'Iris-setosa');predicted class:Iris-setosa;correct
+([4.9, 3.1, 1.5, 0.1], 'Iris-setosa');predicted class:Iris-setosa;correct
+([5.0, 3.2, 1.2, 0.2], 'Iris-setosa');predicted class:Iris-setosa;correct
+([5.5, 3.5, 1.3, 0.2], 'Iris-setosa');predicted class:Iris-setosa;correct
+([4.9, 3.1, 1.5, 0.1], 'Iris-setosa');predicted class:Iris-setosa;correct
+([4.4, 3.0, 1.3, 0.2], 'Iris-setosa');predicted class:Iris-setosa;correct
+([5.1, 3.4, 1.5, 0.2], 'Iris-setosa');predicted class:Iris-setosa;correct
+([5.0, 3.5, 1.3, 0.3], 'Iris-setosa');predicted class:Iris-setosa;correct
+([4.5, 2.3, 1.3, 0.3], 'Iris-setosa');predicted class:Iris-setosa;correct
+([4.4, 3.2, 1.3, 0.2], 'Iris-setosa');predicted class:Iris-setosa;correct
+([5.0, 3.5, 1.6, 0.6], 'Iris-setosa');predicted class:Iris-setosa;correct
+([5.1, 3.8, 1.9, 0.4], 'Iris-setosa');predicted class:Iris-setosa;correct
+([4.8, 3.0, 1.4, 0.3], 'Iris-setosa');predicted class:Iris-setosa;correct
+([5.1, 3.8, 1.6, 0.2], 'Iris-setosa');predicted class:Iris-setosa;correct
+([4.6, 3.2, 1.4, 0.2], 'Iris-setosa');predicted class:Iris-setosa;correct
+([5.3, 3.7, 1.5, 0.2], 'Iris-setosa');predicted class:Iris-setosa;correct
+([5.0, 3.3, 1.4, 0.2], 'Iris-setosa');predicted class:Iris-setosa;correct
+([6.6, 3.0, 4.4, 1.4], 'Iris-versicolor');predicted class:Iris-versicolor;correct
+([6.8, 2.8, 4.8, 1.4], 'Iris-versicolor');predicted class:Iris-versicolor;correct
+([6.7, 3.0, 5.0, 1.7], 'Iris-versicolor');predicted class:Iris-virginica;incorrect
+([6.0, 2.9, 4.5, 1.5], 'Iris-versicolor');predicted class:Iris-versicolor;correct
+([5.7, 2.6, 3.5, 1.0], 'Iris-versicolor');predicted class:Iris-versicolor;correct
+([5.5, 2.4, 3.8, 1.1], 'Iris-versicolor');predicted class:Iris-versicolor;correct
+([5.5, 2.4, 3.7, 1.0], 'Iris-versicolor');predicted class:Iris-versicolor;correct
+([5.8, 2.7, 3.9, 1.2], 'Iris-versicolor');predicted class:Iris-versicolor;correct
+([6.0, 2.7, 5.1, 1.6], 'Iris-versicolor');predicted class:Iris-virginica;incorrect
+([5.4, 3.0, 4.5, 1.5], 'Iris-versicolor');predicted class:Iris-versicolor;correct
+([6.0, 3.4, 4.5, 1.6], 'Iris-versicolor');predicted class:Iris-versicolor;correct
+([6.7, 3.1, 4.7, 1.5], 'Iris-versicolor');predicted class:Iris-versicolor;correct
+([6.3, 2.3, 4.4, 1.3], 'Iris-versicolor');predicted class:Iris-versicolor;correct
+([5.6, 3.0, 4.1, 1.3], 'Iris-versicolor');predicted class:Iris-versicolor;correct
+([5.5, 2.5, 4.0, 1.3], 'Iris-versicolor');predicted class:Iris-versicolor;correct
+([5.5, 2.6, 4.4, 1.2], 'Iris-versicolor');predicted class:Iris-versicolor;correct
+([6.1, 3.0, 4.6, 1.4], 'Iris-versicolor');predicted class:Iris-versicolor;correct
+([5.8, 2.6, 4.0, 1.2], 'Iris-versicolor');predicted class:Iris-versicolor;correct
+([5.0, 2.3, 3.3, 1.0], 'Iris-versicolor');predicted class:Iris-versicolor;correct
+([5.6, 2.7, 4.2, 1.3], 'Iris-versicolor');predicted class:Iris-versicolor;correct
+([5.7, 3.0, 4.2, 1.2], 'Iris-versicolor');predicted class:Iris-versicolor;correct
+([5.7, 2.9, 4.2, 1.3], 'Iris-versicolor');predicted class:Iris-versicolor;correct
+([6.2, 2.9, 4.3, 1.3], 'Iris-versicolor');predicted class:Iris-versicolor;correct
+([5.1, 2.5, 3.0, 1.1], 'Iris-versicolor');predicted class:Iris-versicolor;correct
+([5.7, 2.8, 4.1, 1.3], 'Iris-versicolor');predicted class:Iris-versicolor;correct
+([7.2, 3.2, 6.0, 1.8], 'Iris-virginica');predicted class:Iris-virginica;correct
+([6.2, 2.8, 4.8, 1.8], 'Iris-virginica');predicted class:Iris-virginica;correct
+([6.1, 3.0, 4.9, 1.8], 'Iris-virginica');predicted class:Iris-versicolor;incorrect
+([6.4, 2.8, 5.6, 2.1], 'Iris-virginica');predicted class:Iris-virginica;correct
+([7.2, 3.0, 5.8, 1.6], 'Iris-virginica');predicted class:Iris-virginica;correct
+([7.4, 2.8, 6.1, 1.9], 'Iris-virginica');predicted class:Iris-virginica;correct
+([7.9, 3.8, 6.4, 2.0], 'Iris-virginica');predicted class:Iris-virginica;correct
+([6.4, 2.8, 5.6, 2.2], 'Iris-virginica');predicted class:Iris-virginica;correct
+([6.3, 2.8, 5.1, 1.5], 'Iris-virginica');predicted class:Iris-versicolor;incorrect
+([6.1, 2.6, 5.6, 1.4], 'Iris-virginica');predicted class:Iris-versicolor;incorrect
+([7.7, 3.0, 6.1, 2.3], 'Iris-virginica');predicted class:Iris-virginica;correct
+([6.3, 3.4, 5.6, 2.4], 'Iris-virginica');predicted class:Iris-virginica;correct
+([6.4, 3.1, 5.5, 1.8], 'Iris-virginica');predicted class:Iris-virginica;correct
+([6.0, 3.0, 4.8, 1.8], 'Iris-virginica');predicted class:Iris-versicolor;incorrect
+([6.9, 3.1, 5.4, 2.1], 'Iris-virginica');predicted class:Iris-virginica;correct
+([6.7, 3.1, 5.6, 2.4], 'Iris-virginica');predicted class:Iris-virginica;correct
+([6.9, 3.1, 5.1, 2.3], 'Iris-virginica');predicted class:Iris-virginica;correct
+([5.8, 2.7, 5.1, 1.9], 'Iris-virginica');predicted class:Iris-virginica;correct
+([6.8, 3.2, 5.9, 2.3], 'Iris-virginica');predicted class:Iris-virginica;correct
+([6.7, 3.3, 5.7, 2.5], 'Iris-virginica');predicted class:Iris-virginica;correct
+([6.7, 3.0, 5.2, 2.3], 'Iris-virginica');predicted class:Iris-virginica;correct
+([6.3, 2.5, 5.0, 1.9], 'Iris-virginica');predicted class:Iris-virginica;correct
+([6.5, 3.0, 5.2, 2.0], 'Iris-virginica');predicted class:Iris-virginica;correct
+([6.2, 3.4, 5.4, 2.3], 'Iris-virginica');predicted class:Iris-virginica;correct
+([5.9, 3.0, 5.1, 1.8], 'Iris-virginica');predicted class:Iris-versicolor;incorrect
+k = 1, accuracy is 90.67%
+
+
+
+([5.0, 3.0, 1.6, 0.2], 'Iris-setosa');predicted class:Iris-setosa;correct
+([5.0, 3.4, 1.6, 0.4], 'Iris-setosa');predicted class:Iris-setosa;correct
+([5.2, 3.5, 1.5, 0.2], 'Iris-setosa');predicted class:Iris-setosa;correct
+([5.2, 3.4, 1.4, 0.2], 'Iris-setosa');predicted class:Iris-setosa;correct
+([4.7, 3.2, 1.6, 0.2], 'Iris-setosa');predicted class:Iris-setosa;correct
+([4.8, 3.1, 1.6, 0.2], 'Iris-setosa');predicted class:Iris-setosa;correct
+([5.4, 3.4, 1.5, 0.4], 'Iris-setosa');predicted class:Iris-setosa;correct
+([5.2, 4.1, 1.5, 0.1], 'Iris-setosa');predicted class:Iris-setosa;correct
+([5.5, 4.2, 1.4, 0.2], 'Iris-setosa');predicted class:Iris-setosa;correct
+([4.9, 3.1, 1.5, 0.1], 'Iris-setosa');predicted class:Iris-setosa;correct
+([5.0, 3.2, 1.2, 0.2], 'Iris-setosa');predicted class:Iris-setosa;correct
+([5.5, 3.5, 1.3, 0.2], 'Iris-setosa');predicted class:Iris-setosa;correct
+([4.9, 3.1, 1.5, 0.1], 'Iris-setosa');predicted class:Iris-setosa;correct
+([4.4, 3.0, 1.3, 0.2], 'Iris-setosa');predicted class:Iris-setosa;correct
+([5.1, 3.4, 1.5, 0.2], 'Iris-setosa');predicted class:Iris-setosa;correct
+([5.0, 3.5, 1.3, 0.3], 'Iris-setosa');predicted class:Iris-setosa;correct
+([4.5, 2.3, 1.3, 0.3], 'Iris-setosa');predicted class:Iris-setosa;correct
+([4.4, 3.2, 1.3, 0.2], 'Iris-setosa');predicted class:Iris-setosa;correct
+([5.0, 3.5, 1.6, 0.6], 'Iris-setosa');predicted class:Iris-setosa;correct
+([5.1, 3.8, 1.9, 0.4], 'Iris-setosa');predicted class:Iris-setosa;correct
+([4.8, 3.0, 1.4, 0.3], 'Iris-setosa');predicted class:Iris-setosa;correct
+([5.1, 3.8, 1.6, 0.2], 'Iris-setosa');predicted class:Iris-setosa;correct
+([4.6, 3.2, 1.4, 0.2], 'Iris-setosa');predicted class:Iris-setosa;correct
+([5.3, 3.7, 1.5, 0.2], 'Iris-setosa');predicted class:Iris-setosa;correct
+([5.0, 3.3, 1.4, 0.2], 'Iris-setosa');predicted class:Iris-setosa;correct
+([6.6, 3.0, 4.4, 1.4], 'Iris-versicolor');predicted class:Iris-versicolor;correct
+([6.8, 2.8, 4.8, 1.4], 'Iris-versicolor');predicted class:Iris-versicolor;correct
+([6.7, 3.0, 5.0, 1.7], 'Iris-versicolor');predicted class:Iris-versicolor;correct
+([6.0, 2.9, 4.5, 1.5], 'Iris-versicolor');predicted class:Iris-versicolor;correct
+([5.7, 2.6, 3.5, 1.0], 'Iris-versicolor');predicted class:Iris-versicolor;correct
+([5.5, 2.4, 3.8, 1.1], 'Iris-versicolor');predicted class:Iris-versicolor;correct
+([5.5, 2.4, 3.7, 1.0], 'Iris-versicolor');predicted class:Iris-versicolor;correct
+([5.8, 2.7, 3.9, 1.2], 'Iris-versicolor');predicted class:Iris-versicolor;correct
+([6.0, 2.7, 5.1, 1.6], 'Iris-versicolor');predicted class:Iris-virginica;incorrect
+([5.4, 3.0, 4.5, 1.5], 'Iris-versicolor');predicted class:Iris-versicolor;correct
+([6.0, 3.4, 4.5, 1.6], 'Iris-versicolor');predicted class:Iris-versicolor;correct
+([6.7, 3.1, 4.7, 1.5], 'Iris-versicolor');predicted class:Iris-versicolor;correct
+([6.3, 2.3, 4.4, 1.3], 'Iris-versicolor');predicted class:Iris-versicolor;correct
+([5.6, 3.0, 4.1, 1.3], 'Iris-versicolor');predicted class:Iris-versicolor;correct
+([5.5, 2.5, 4.0, 1.3], 'Iris-versicolor');predicted class:Iris-versicolor;correct
+([5.5, 2.6, 4.4, 1.2], 'Iris-versicolor');predicted class:Iris-versicolor;correct
+([6.1, 3.0, 4.6, 1.4], 'Iris-versicolor');predicted class:Iris-versicolor;correct
+([5.8, 2.6, 4.0, 1.2], 'Iris-versicolor');predicted class:Iris-versicolor;correct
+([5.0, 2.3, 3.3, 1.0], 'Iris-versicolor');predicted class:Iris-versicolor;correct
+([5.6, 2.7, 4.2, 1.3], 'Iris-versicolor');predicted class:Iris-versicolor;correct
+([5.7, 3.0, 4.2, 1.2], 'Iris-versicolor');predicted class:Iris-versicolor;correct
+([5.7, 2.9, 4.2, 1.3], 'Iris-versicolor');predicted class:Iris-versicolor;correct
+([6.2, 2.9, 4.3, 1.3], 'Iris-versicolor');predicted class:Iris-versicolor;correct
+([5.1, 2.5, 3.0, 1.1], 'Iris-versicolor');predicted class:Iris-versicolor;correct
+([5.7, 2.8, 4.1, 1.3], 'Iris-versicolor');predicted class:Iris-versicolor;correct
+([7.2, 3.2, 6.0, 1.8], 'Iris-virginica');predicted class:Iris-virginica;correct
+([6.2, 2.8, 4.8, 1.8], 'Iris-virginica');predicted class:Iris-virginica;correct
+([6.1, 3.0, 4.9, 1.8], 'Iris-virginica');predicted class:Iris-virginica;correct
+([6.4, 2.8, 5.6, 2.1], 'Iris-virginica');predicted class:Iris-virginica;correct
+([7.2, 3.0, 5.8, 1.6], 'Iris-virginica');predicted class:Iris-virginica;correct
+([7.4, 2.8, 6.1, 1.9], 'Iris-virginica');predicted class:Iris-virginica;correct
+([7.9, 3.8, 6.4, 2.0], 'Iris-virginica');predicted class:Iris-virginica;correct
+([6.4, 2.8, 5.6, 2.2], 'Iris-virginica');predicted class:Iris-virginica;correct
+([6.3, 2.8, 5.1, 1.5], 'Iris-virginica');predicted class:Iris-versicolor;incorrect
+([6.1, 2.6, 5.6, 1.4], 'Iris-virginica');predicted class:Iris-versicolor;incorrect
+([7.7, 3.0, 6.1, 2.3], 'Iris-virginica');predicted class:Iris-virginica;correct
+([6.3, 3.4, 5.6, 2.4], 'Iris-virginica');predicted class:Iris-virginica;correct
+([6.4, 3.1, 5.5, 1.8], 'Iris-virginica');predicted class:Iris-virginica;correct
+([6.0, 3.0, 4.8, 1.8], 'Iris-virginica');predicted class:Iris-virginica;correct
+([6.9, 3.1, 5.4, 2.1], 'Iris-virginica');predicted class:Iris-virginica;correct
+([6.7, 3.1, 5.6, 2.4], 'Iris-virginica');predicted class:Iris-virginica;correct
+([6.9, 3.1, 5.1, 2.3], 'Iris-virginica');predicted class:Iris-virginica;correct
+([5.8, 2.7, 5.1, 1.9], 'Iris-virginica');predicted class:Iris-virginica;correct
+([6.8, 3.2, 5.9, 2.3], 'Iris-virginica');predicted class:Iris-virginica;correct
+([6.7, 3.3, 5.7, 2.5], 'Iris-virginica');predicted class:Iris-virginica;correct
+([6.7, 3.0, 5.2, 2.3], 'Iris-virginica');predicted class:Iris-virginica;correct
+([6.3, 2.5, 5.0, 1.9], 'Iris-virginica');predicted class:Iris-virginica;correct
+([6.5, 3.0, 5.2, 2.0], 'Iris-virginica');predicted class:Iris-virginica;correct
+([6.2, 3.4, 5.4, 2.3], 'Iris-virginica');predicted class:Iris-virginica;correct
+([5.9, 3.0, 5.1, 1.8], 'Iris-virginica');predicted class:Iris-virginica;correct
+k = 3, accuracy is 96.00%
+
+
+KM.py sampleoutput:
+After 1 time:
+setosa_center: [5.005660377358491, 3.360377358490567, 1.562264150943396, 0.2886792452830188]
+versicolor_center: [6.179104477611939, 2.8149253731343293, 4.680597014925374, 1.4731343283582088]
+versicolor_center: [6.573333333333334, 3.0466666666666664, 5.579999999999999, 2.1933333333333334]
+After 2 time:
+setosa_center: [5.005999999999999, 3.4180000000000006, 1.464, 0.2439999999999999]
+versicolor_center: [5.934375000000001, 2.7546875, 4.418750000000001, 1.4234375000000001]
+versicolor_center: [6.844444444444445, 3.0805555555555544, 5.772222222222221, 2.1249999999999996]
+After 3 time:
+setosa_center: [5.005999999999999, 3.4180000000000006, 1.464, 0.2439999999999999]
+versicolor_center: [5.9064516129032265, 2.745161290322581, 4.401612903225807, 1.417741935483871]
+versicolor_center: [6.842105263157895, 3.0789473684210518, 5.728947368421052, 2.0973684210526313]
+After 4 time:
+setosa_center: [5.005999999999999, 3.4180000000000006, 1.464, 0.2439999999999999]
+versicolor_center: [5.888524590163935, 2.737704918032787, 4.39672131147541, 1.4180327868852458]
+versicolor_center: [6.846153846153845, 3.0820512820512818, 5.702564102564101, 2.0794871794871788]
+After 5 time:
+setosa_center: [5.005999999999999, 3.4180000000000006, 1.464, 0.2439999999999999]
+versicolor_center: [5.888524590163935, 2.737704918032787, 4.39672131147541, 1.4180327868852458]
+versicolor_center: [6.846153846153845, 3.0820512820512818, 5.702564102564101, 2.0794871794871788]
+The results after 4 times and after 5 times are same, so the final center is:
+setosa_center: [5.005999999999999, 3.4180000000000006, 1.464, 0.2439999999999999]
+versicolor_center: [5.888524590163935, 2.737704918032787, 4.39672131147541, 1.4180327868852458]
+versicolor_center: [6.846153846153845, 3.0820512820512818, 5.702564102564101, 2.0794871794871788]
+The class of instance is:
+[[5.1, 3.5, 1.4, 0.2], 'Iris-setosa']
+[[4.9, 3.0, 1.4, 0.2], 'Iris-setosa']
+[[4.7, 3.2, 1.3, 0.2], 'Iris-setosa']
+[[4.6, 3.1, 1.5, 0.2], 'Iris-setosa']
+[[5.0, 3.6, 1.4, 0.2], 'Iris-setosa']
+[[5.4, 3.9, 1.7, 0.4], 'Iris-setosa']
+[[4.6, 3.4, 1.4, 0.3], 'Iris-setosa']
+[[5.0, 3.4, 1.5, 0.2], 'Iris-setosa']
+[[4.4, 2.9, 1.4, 0.2], 'Iris-setosa']
+[[4.9, 3.1, 1.5, 0.1], 'Iris-setosa']
+[[5.4, 3.7, 1.5, 0.2], 'Iris-setosa']
+[[4.8, 3.4, 1.6, 0.2], 'Iris-setosa']
+[[4.8, 3.0, 1.4, 0.1], 'Iris-setosa']
+[[4.3, 3.0, 1.1, 0.1], 'Iris-setosa']
+[[5.8, 4.0, 1.2, 0.2], 'Iris-setosa']
+[[5.7, 4.4, 1.5, 0.4], 'Iris-setosa']
+[[5.4, 3.9, 1.3, 0.4], 'Iris-setosa']
+[[5.1, 3.5, 1.4, 0.3], 'Iris-setosa']
+[[5.7, 3.8, 1.7, 0.3], 'Iris-setosa']
+[[5.1, 3.8, 1.5, 0.3], 'Iris-setosa']
+[[5.4, 3.4, 1.7, 0.2], 'Iris-setosa']
+[[5.1, 3.7, 1.5, 0.4], 'Iris-setosa']
+[[4.6, 3.6, 1.0, 0.2], 'Iris-setosa']
+[[5.1, 3.3, 1.7, 0.5], 'Iris-setosa']
+[[4.8, 3.4, 1.9, 0.2], 'Iris-setosa']
+[[5.0, 3.0, 1.6, 0.2], 'Iris-setosa']
+[[5.0, 3.4, 1.6, 0.4], 'Iris-setosa']
+[[5.2, 3.5, 1.5, 0.2], 'Iris-setosa']
+[[5.2, 3.4, 1.4, 0.2], 'Iris-setosa']
+[[4.7, 3.2, 1.6, 0.2], 'Iris-setosa']
+[[4.8, 3.1, 1.6, 0.2], 'Iris-setosa']
+[[5.4, 3.4, 1.5, 0.4], 'Iris-setosa']
+[[5.2, 4.1, 1.5, 0.1], 'Iris-setosa']
+[[5.5, 4.2, 1.4, 0.2], 'Iris-setosa']
+[[4.9, 3.1, 1.5, 0.1], 'Iris-setosa']
+[[5.0, 3.2, 1.2, 0.2], 'Iris-setosa']
+[[5.5, 3.5, 1.3, 0.2], 'Iris-setosa']
+[[4.9, 3.1, 1.5, 0.1], 'Iris-setosa']
+[[4.4, 3.0, 1.3, 0.2], 'Iris-setosa']
+[[5.1, 3.4, 1.5, 0.2], 'Iris-setosa']
+[[5.0, 3.5, 1.3, 0.3], 'Iris-setosa']
+[[4.5, 2.3, 1.3, 0.3], 'Iris-setosa']
+[[4.4, 3.2, 1.3, 0.2], 'Iris-setosa']
+[[5.0, 3.5, 1.6, 0.6], 'Iris-setosa']
+[[5.1, 3.8, 1.9, 0.4], 'Iris-setosa']
+[[4.8, 3.0, 1.4, 0.3], 'Iris-setosa']
+[[5.1, 3.8, 1.6, 0.2], 'Iris-setosa']
+[[4.6, 3.2, 1.4, 0.2], 'Iris-setosa']
+[[5.3, 3.7, 1.5, 0.2], 'Iris-setosa']
+[[5.0, 3.3, 1.4, 0.2], 'Iris-setosa']
+[[7.0, 3.2, 4.7, 1.4], 'Iris-virginica']
+[[6.4, 3.2, 4.5, 1.5], 'Iris-versicolor']
+[[6.9, 3.1, 4.9, 1.5], 'Iris-virginica']
+[[5.5, 2.3, 4.0, 1.3], 'Iris-versicolor']
+[[6.5, 2.8, 4.6, 1.5], 'Iris-versicolor']
+[[5.7, 2.8, 4.5, 1.3], 'Iris-versicolor']
+[[6.3, 3.3, 4.7, 1.6], 'Iris-versicolor']
+[[4.9, 2.4, 3.3, 1.0], 'Iris-versicolor']
+[[6.6, 2.9, 4.6, 1.3], 'Iris-versicolor']
+[[5.2, 2.7, 3.9, 1.4], 'Iris-versicolor']
+[[5.0, 2.0, 3.5, 1.0], 'Iris-versicolor']
+[[5.9, 3.0, 4.2, 1.5], 'Iris-versicolor']
+[[6.0, 2.2, 4.0, 1.0], 'Iris-versicolor']
+[[6.1, 2.9, 4.7, 1.4], 'Iris-versicolor']
+[[5.6, 2.9, 3.6, 1.3], 'Iris-versicolor']
+[[6.7, 3.1, 4.4, 1.4], 'Iris-versicolor']
+[[5.6, 3.0, 4.5, 1.5], 'Iris-versicolor']
+[[5.8, 2.7, 4.1, 1.0], 'Iris-versicolor']
+[[6.2, 2.2, 4.5, 1.5], 'Iris-versicolor']
+[[5.6, 2.5, 3.9, 1.1], 'Iris-versicolor']
+[[5.9, 3.2, 4.8, 1.8], 'Iris-versicolor']
+[[6.1, 2.8, 4.0, 1.3], 'Iris-versicolor']
+[[6.3, 2.5, 4.9, 1.5], 'Iris-versicolor']
+[[6.1, 2.8, 4.7, 1.2], 'Iris-versicolor']
+[[6.4, 2.9, 4.3, 1.3], 'Iris-versicolor']
+[[6.6, 3.0, 4.4, 1.4], 'Iris-versicolor']
+[[6.8, 2.8, 4.8, 1.4], 'Iris-versicolor']
+[[6.7, 3.0, 5.0, 1.7], 'Iris-virginica']
+[[6.0, 2.9, 4.5, 1.5], 'Iris-versicolor']
+[[5.7, 2.6, 3.5, 1.0], 'Iris-versicolor']
+[[5.5, 2.4, 3.8, 1.1], 'Iris-versicolor']
+[[5.5, 2.4, 3.7, 1.0], 'Iris-versicolor']
+[[5.8, 2.7, 3.9, 1.2], 'Iris-versicolor']
+[[6.0, 2.7, 5.1, 1.6], 'Iris-versicolor']
+[[5.4, 3.0, 4.5, 1.5], 'Iris-versicolor']
+[[6.0, 3.4, 4.5, 1.6], 'Iris-versicolor']
+[[6.7, 3.1, 4.7, 1.5], 'Iris-versicolor']
+[[6.3, 2.3, 4.4, 1.3], 'Iris-versicolor']
+[[5.6, 3.0, 4.1, 1.3], 'Iris-versicolor']
+[[5.5, 2.5, 4.0, 1.3], 'Iris-versicolor']
+[[5.5, 2.6, 4.4, 1.2], 'Iris-versicolor']
+[[6.1, 3.0, 4.6, 1.4], 'Iris-versicolor']
+[[5.8, 2.6, 4.0, 1.2], 'Iris-versicolor']
+[[5.0, 2.3, 3.3, 1.0], 'Iris-versicolor']
+[[5.6, 2.7, 4.2, 1.3], 'Iris-versicolor']
+[[5.7, 3.0, 4.2, 1.2], 'Iris-versicolor']
+[[5.7, 2.9, 4.2, 1.3], 'Iris-versicolor']
+[[6.2, 2.9, 4.3, 1.3], 'Iris-versicolor']
+[[5.1, 2.5, 3.0, 1.1], 'Iris-versicolor']
+[[5.7, 2.8, 4.1, 1.3], 'Iris-versicolor']
+[[6.3, 3.3, 6.0, 2.5], 'Iris-virginica']
+[[5.8, 2.7, 5.1, 1.9], 'Iris-versicolor']
+[[7.1, 3.0, 5.9, 2.1], 'Iris-virginica']
+[[6.3, 2.9, 5.6, 1.8], 'Iris-virginica']
+[[6.5, 3.0, 5.8, 2.2], 'Iris-virginica']
+[[7.6, 3.0, 6.6, 2.1], 'Iris-virginica']
+[[4.9, 2.5, 4.5, 1.7], 'Iris-versicolor']
+[[7.3, 2.9, 6.3, 1.8], 'Iris-virginica']
+[[6.7, 2.5, 5.8, 1.8], 'Iris-virginica']
+[[7.2, 3.6, 6.1, 2.5], 'Iris-virginica']
+[[6.5, 3.2, 5.1, 2.0], 'Iris-virginica']
+[[6.4, 2.7, 5.3, 1.9], 'Iris-virginica']
+[[6.8, 3.0, 5.5, 2.1], 'Iris-virginica']
+[[5.7, 2.5, 5.0, 2.0], 'Iris-versicolor']
+[[5.8, 2.8, 5.1, 2.4], 'Iris-virginica']
+[[6.4, 3.2, 5.3, 2.3], 'Iris-virginica']
+[[6.5, 3.0, 5.5, 1.8], 'Iris-virginica']
+[[7.7, 3.8, 6.7, 2.2], 'Iris-virginica']
+[[7.7, 2.6, 6.9, 2.3], 'Iris-virginica']
+[[6.0, 2.2, 5.0, 1.5], 'Iris-versicolor']
+[[6.9, 3.2, 5.7, 2.3], 'Iris-virginica']
+[[5.6, 2.8, 4.9, 2.0], 'Iris-versicolor']
+[[7.7, 2.8, 6.7, 2.0], 'Iris-virginica']
+[[6.3, 2.7, 4.9, 1.8], 'Iris-versicolor']
+[[6.7, 3.3, 5.7, 2.1], 'Iris-virginica']
+[[7.2, 3.2, 6.0, 1.8], 'Iris-virginica']
+[[6.2, 2.8, 4.8, 1.8], 'Iris-versicolor']
+[[6.1, 3.0, 4.9, 1.8], 'Iris-versicolor']
+[[6.4, 2.8, 5.6, 2.1], 'Iris-virginica']
+[[7.2, 3.0, 5.8, 1.6], 'Iris-virginica']
+[[7.4, 2.8, 6.1, 1.9], 'Iris-virginica']
+[[7.9, 3.8, 6.4, 2.0], 'Iris-virginica']
+[[6.4, 2.8, 5.6, 2.2], 'Iris-virginica']
+[[6.3, 2.8, 5.1, 1.5], 'Iris-versicolor']
+[[6.1, 2.6, 5.6, 1.4], 'Iris-versicolor']
+[[7.7, 3.0, 6.1, 2.3], 'Iris-virginica']
+[[6.3, 3.4, 5.6, 2.4], 'Iris-virginica']
+[[6.4, 3.1, 5.5, 1.8], 'Iris-virginica']
+[[6.0, 3.0, 4.8, 1.8], 'Iris-versicolor']
+[[6.9, 3.1, 5.4, 2.1], 'Iris-virginica']
+[[6.7, 3.1, 5.6, 2.4], 'Iris-virginica']
+[[6.9, 3.1, 5.1, 2.3], 'Iris-virginica']
+[[5.8, 2.7, 5.1, 1.9], 'Iris-versicolor']
+[[6.8, 3.2, 5.9, 2.3], 'Iris-virginica']
+[[6.7, 3.3, 5.7, 2.5], 'Iris-virginica']
+[[6.7, 3.0, 5.2, 2.3], 'Iris-virginica']
+[[6.3, 2.5, 5.0, 1.9], 'Iris-versicolor']
+[[6.5, 3.0, 5.2, 2.0], 'Iris-virginica']
+[[6.2, 3.4, 5.4, 2.3], 'Iris-virginica']
+[[5.9, 3.0, 5.1, 1.8], 'Iris-versicolor']
